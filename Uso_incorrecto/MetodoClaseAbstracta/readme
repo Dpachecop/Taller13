@@ -1,5 +1,3 @@
-package Taller13.Uso_incorrecto.MetodoClaseAbstracta;
-
 //Intenta definir métodos predeterminados 
 //en una clase abstracta y discute
 //por qué esto no es posible.
@@ -9,9 +7,9 @@ public abstract class Electrodomestico {
 
 // Intento incorrecto de definir un método predeterminado
 
-// public default void encender() {
-//    System.out.println("El electrodoméstico se está encendiendo.");
-// }
+ public default void encender() {
+    System.out.println("El electrodoméstico se está encendiendo.");
+ }
 
 }
 
@@ -21,7 +19,7 @@ public abstract class Electrodomestico {
 
 // LA FORMA CORRECTA SERIA:
 
-/*
+
 
 public interface Operable {
     default void encender() {
@@ -29,5 +27,5 @@ public interface Operable {
     }
 }
 
- */
+ 
 
