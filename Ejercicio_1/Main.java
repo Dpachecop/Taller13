@@ -1,6 +1,8 @@
 package Taller13.Ejercicio1;
+import Ejercicio1.Rectangulo;
 
-public class Prueba {
+
+public class Main {
     public static void main(String[] args) {
         Figura rectangulo = new Rectangulo(4.0, 6.0);
         System.out.println("Área del Rectángulo: " + rectangulo.calcularArea());
